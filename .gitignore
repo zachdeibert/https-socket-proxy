@@ -36,6 +36,7 @@
 *.x86_64
 *.hex
 hsp-server
+hsp-client
 
 # Debug files
 *.dSYM/
