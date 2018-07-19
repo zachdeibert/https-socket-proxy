@@ -9,7 +9,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#define TIMEOUT_SECS 5
+#define TIMEOUT_SECS 90
 #define BUFFER_SIZE 65536
 
 int main(int argc, const char **argv) {
