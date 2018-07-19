@@ -1,4 +1,4 @@
 %:
-	$(MAKE) -C server $<
+	$(MAKE) -C server $@
 
 all:
