@@ -1,4 +1,9 @@
-%:
-	$(MAKE) -C server $@
+.PHONY: all
+all: hsp-server
 
-all:
+.PHONY: clean
+clean:
+	rm -f hsp-server server.o
+
+hsp-server: server.o
+	$(CC) $(LDFLAGS) $(CFLAGS) -o $@ $^
